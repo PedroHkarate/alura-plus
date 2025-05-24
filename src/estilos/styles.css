@@ -43,6 +43,11 @@ body{
     margin-bottom: 1em;
 }
 
+.container__botao:hover{
+    background-color: var(--azul-botao-selecionado);
+    color: var(--background);
+}
+
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
